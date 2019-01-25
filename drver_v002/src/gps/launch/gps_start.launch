@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="gps" type="gps_serial" name="gps_serial" >
+        <param name="port" value="/dev/ttyUSB0" />
+        <param name="baud_rate" value="115200" />
+    </node>
+    <node pkg="gps" type="gps_parse" name="gps_parse" />
+</launch>

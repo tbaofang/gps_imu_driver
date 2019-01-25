@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="gps" type="gps_serial" name="gps_serial" />
+    <node pkg="gps" type="gps_parse" name="gps_parse" />
+</launch>
